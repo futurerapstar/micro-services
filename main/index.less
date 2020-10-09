@@ -1,0 +1,17 @@
+// 主应用慎用 reset 样式
+body {
+  margin: 0;
+}
+
+
+// 子应用区域
+#subapp-container {
+  flex-grow: 1;
+  position: relative;
+  .subapp-loading {
+    color: #444;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+  }
+}
